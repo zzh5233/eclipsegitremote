@@ -1,0 +1,47 @@
+server:
+  port: 8883
+#spring:
+ #   profiles:
+  #    active: test
+      
+---
+server:
+  port: 8884
+spring: 
+  profiles: dev
+
+---
+server:
+  port: 8885
+spring: 
+  profiles: test     
+
+
+
+
+
+
+student: 
+  uname: ceshi
+  user-name: ${student.user.name:wuming}     #松散写法
+  #name: zh
+  #age: 18
+  sex: True
+  birthday: 1996/4/4
+  location: 
+    provice: 河南1
+    city: 郑州1 
+    #{provice: 河南, city: 郑州}
+  hobbies:
+    [打篮球1, 踢足球1] 
+    #- 打篮球
+    #- 踢足球
+  skill:
+    [编程1, 乐器1]
+    #- 编程
+    #- 乐器
+  pet: {nickName: 小白1, strain: 哈士奇1}
+    #nickName: 小白
+    #strain: 哈士奇
+  #email: 18865465@qq.com
+  

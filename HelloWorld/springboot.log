@@ -1,0 +1,4 @@
+2019-03-10 09:28:27.825  INFO 5328 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-10 09:28:28.320  WARN 5328 --- [main] c.z.H.HelloWorldApplicationTests         : warn************
+2019-03-10 09:28:28.320 ERROR 5328 --- [main] c.z.H.HelloWorldApplicationTests         : error**********
+2019-03-10 09:28:28.329  INFO 5328 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
